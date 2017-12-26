@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+<div class="box">
+    <div class="left">
+        <p>发现更多精彩！</p>
+        <div class="tu">
+            <img class="img1" src="images/upload/log1.jpg" alt="">
+            <img class="img2" src="images/upload/log2.jpg" alt="">
+            <img class="img3" src="images/upload/log3.jpg" alt="">
+            <img class="img4" src="images/upload/log4.jpg" alt="">
+        </div>
+    </div>
+    <div class="right">
+        <p>用户登录</p>
+        <div class="login">
+                <input type="text" placeholder="微博账号/QQ号码/电子邮箱" id="userName" ><br/>
+                <input type="password" placeholder="密码" id="pwd" ><br/>
+                <input type="button" value="登&nbsp;录" id="sub" onclick="check()">
+        </div>
+        <ul>
+            <li class="l1"></li>
+            <li class="l2"></li>
+        </ul>
+        <a href="#">忘记密码?</a>
+        <a href="register.html" class="two">注册新账号</a>
+        <a href="#">意见反馈</a>
+    </div>
+</div>
+<footer>
+    <p class="zhengwen">版权所有&copy;爱旅行</p>
+</footer>
+
+<script>
+    //获取cookie
+    function getCookie(key) {
+        var arr1 = document.cookie.split('; ');
+        for(var i=0;i<arr1.length;i++){
+            var arr2 = arr1[i].split('=');
+            if(arr2[0]==key){
+                return decodeURI(arr2[1]);
+            }
+        }
+    }
+
+    var sub = document.getElementById('sub');
+    var userName = document.getElementById('userName');
+    var pwd = document.getElementById('pwd');
+    function check(){
+        if(getCookie('username')==userName.value&&getCookie('pwd')==pwd.value){
+            window.location.href = 'index.html';
+        }else if(userName.value==''||pwd.value == ''){
+            alert('用户名或密码不能为空哦');
+        }
+        else{
+            alert('用户名或密码错误');
+            return false;
+        }
+    }
+
+</script>
+</body>
+</html>

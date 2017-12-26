@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: '微软雅黑';
+}
+body{
+    background: #f0f0f0;
+}
+.box{
+    width: 920px;
+    height: 330px;
+    padding: 20px 30px;
+    background: #fff;
+    margin:210px 0 0 230px ;
+}
+.left{
+    width: 500px;
+    height: 330px;
+    overflow: hidden;
+    float: left;
+}
+.left p{
+    font-size: 15px;
+    height: 25px;
+    line-height: 25px;
+}
+.left img{
+    float: left;
+}
+.left .img1{
+    width: 194px;
+    height: 305px;
+    margin-right: 5px;
+}
+.left .img2{
+    width: 296px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+.left .img3,.img4{
+    width: 145px;
+    height: 150px;
+}
+.left .img3{
+    margin-right: 5px;
+}
+.right{
+    float: left;
+    margin-left: 70px;
+    width: 350px;
+}
+.right p{
+    color: #606060;
+    font-weight: bold;
+    font-size:17px ;
+    height: 32px;
+    width: 100%;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+}
+.right .login{
+    width: 340px;
+    margin: 20px 0 0 10px;
+}
+.right input{
+    width: 320px;
+    padding-left: 10px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+.right input[type='button']{
+    width: 114px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    background: #82cb2d;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #41a317;
+}
+.right ul {
+    width: 340px;
+    overflow: hidden;
+    margin-left: 10px;
+}
+.right ul li{
+    float: left;
+    margin:0 12px 20px 0;
+    cursor: pointer;
+}
+.right ul li.l1{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: url(../images/head.png) -303px -122px no-repeat;
+
+}
+.right ul li.l1:hover{
+    background: url(../images/head.png) -704px -122px no-repeat;
+}
+.right ul li.l2{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: url(../images/head.png) -463px -122px no-repeat;
+}
+.right ul li.l2:hover{
+    background: url(../images/head.png) -862px -122px no-repeat;
+}
+.right a{
+    float: right;
+    display: inline-block;
+    font-size: 12px;
+    height: 13px;
+    width: 60px;
+    padding:0 8px ;
+    line-height: 13px;
+}
+.right .two{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.zhengwen{
+    font-size:12px ;
+    color:#606060 ;
+}
+footer p{
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+

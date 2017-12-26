@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+body{
+    background: url(../images/wallpaper.jpg);
+    background-size: cover;
+}
+.boxbig{
+    width: 900px;
+    height: 340px;
+    padding:30px;
+    background: #fff;
+    margin: 250px 0 0 230px;
+}
+.boxbig p{
+    font-size: 18px;
+    font-weight: bold;
+    color: #606060;
+    width: 86px;
+    height: 20px;
+    padding-bottom: 4px;
+    margin-bottom: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-bottom:4px solid #82cb2d ;
+}
+.boxbig .putong{
+    width: 434px;
+    height: 340px;
+    border-right: 1px solid #ccc;
+    float: left;
+}
+/*.box .putong span{*/
+    /*font-size: 16px;*/
+    /*color: #606060;*/
+
+/*}*/
+/*.box .putong input{*/
+    /*width: 236px;*/
+    /*height: 34px;*/
+    /*border: 1px solid #ccc;*/
+    /*border-radius: 5px;*/
+    /*margin-top: 20px;*/
+/*}*/
+
+i{
+    font-style:normal;
+}
+.register-box{
+    width:400px;
+    height: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.register-box .box{
+    height:50px;
+    line-height: 50px;
+    padding-left:10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+.register-box .box input{
+    width:250px;
+    height: 30px;
+    border:1px solid lightskyblue;
+    border-radius: 5px;
+    font-size:12px;
+    padding-left:10px;
+}
+
+/*验证信息结果项*/
+.register-box .tip{
+    padding-left:10px;
+    width: 100%;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+}
+/*提示信息图标*/
+.register-box .tip i{
+    /*background: url(../img/error.png) center center no-repeat;*/
+    width:20px;
+    height:20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.register-box .tip span{
+    color:gray;
+}
+/*提示信息默认样式*/
+.register-box .tip.hide{
+    display: none;
+}
+/*-----------------------------------------------------*/
+/*默认的盒子状态*/
+.register-box .box{
+    height:50px;
+    line-height: 50px;
+    padding-left:10px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+/*box--输入信息错误*/
+.register-box .box.error{
+    border:1px solid red;
+}
+/*box--输入信息正确*/
+.register-box .box.right i{
+    width:20px;
+    height: 20px;
+    background: url(../images/right.png) center center no-repeat;
+    position: absolute;
+    top:50%;
+    right:10px;
+    margin-top:-10px;
+}
+/*提示信息样式--tip*/
+/*获取焦点---默认样式*/
+.register-box .tip.default i{
+    background: url(../images/default.png) center center no-repeat;
+}
+.register-box .tip.default span{
+    color:gray;
+}
+/*tip--错误样式*/
+.register-box .tip.error i{
+    background: url(../images/error.png) center center no-repeat;
+}
+.register-box .tip.error span{
+    color:red;
+}
+/*tip---密码等级*/
+/*弱*/
+.register-box .tip.ruo i{
+    background: url(../images/ruo.png) center center no-repeat;
+}
+/*中*/
+.register-box .tip.zhong i{
+    background: url(../images/zhong.png) center center no-repeat;
+}
+/*强*/
+.register-box .tip.qiang i{
+    background: url(../images/qiang.png) center center no-repeat;
+}
+
+.boxbig .putong input[type='submit']{
+    background: #82cb2d;
+    color: white;
+    font-size: 16px;
+    width: 114px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.boxbig .kuaisu{
+    float: left;
+    margin-left:30px;
+    width: 434px;
+    height: 340px
+}
+.boxbig ul {
+    width: 434px;
+    overflow: hidden;
+}
+.boxbig ul li{
+    float: left;
+    margin:0 60px 20px 0;
+    cursor: pointer;
+}
+.boxbig ul li.l1,.boxbig ul li.l3,.boxbig ul li.l5{
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.boxbig ul li.l2,.boxbig ul li.l4{
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.boxbig ul li.l1{
+    background: url(../images/head.png) -303px -122px no-repeat;
+}
+.boxbig  ul li.l1:hover{
+    background: url(../images/head.png) -704px -122px no-repeat;
+}
+.boxbig ul li.l2{
+    background: url(../images/head.png) -463px -122px no-repeat;
+}
+.boxbig  ul li.l2:hover{
+    background: url(../images/head.png) -862px -122px no-repeat;
+}
+.boxbig ul li.l3{
+    background: url(../images/head.png) -303px -178px no-repeat;
+}
+.boxbig  ul li.l3:hover{
+    background: url(../images/head.png) -704px -178px no-repeat;
+}
+.boxbig ul li.l4{
+     background: url(../images/head.png) -463px -178px no-repeat;
+ }
+.boxbig  ul li.l4:hover{
+    background: url(../images/head.png) -862px -178px no-repeat;
+}
+.boxbig ul li.l5{
+     background: url(../images/head.png) -303px -234px no-repeat;
+ }
+.boxbig  ul li.l5:hover{
+    background: url(../images/head.png) -704px -234px no-repeat;
+}
+.boxbig .kuaisu a{
+    font-size: 12px;
+    float: right;
+    margin-top: 20px;
+}
+

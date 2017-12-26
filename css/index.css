@@ -1,0 +1,650 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 微软雅黑;
+}
+body{
+    background: #f1f1f1;
+}
+.biaoti{
+    font-family: 微软雅黑;
+    font-size:20px ;
+    font-weight: bold;
+    color:#606060 ;
+}
+.xiaobiaoti{
+    font-size:14px ;
+    font-weight: bold;
+    color:#606060 ;
+}
+.zhengwen{
+    font-size:12px ;
+    color:#606060 ;
+}
+/*------------------------------------顶部栏----------------------------------*/
+.top{
+    height: 40px;
+    width: 100%;
+    background: #000;
+    padding-left: 190px;
+    position: relative;
+}
+.top a{
+    float: left;
+    padding: 0 5px ;
+    width: auto;
+    height: 20px;
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.top .border-a{
+    border-right: 1px solid white;
+}
+.top .four{
+    margin-left: 500px;
+}
+.top .tel{
+    width:20px ;
+    height: 20px;
+    /*margin-top: 13px;*/
+    background: url(../images/head.png) 0px -194px no-repeat;
+}
+.top .email{
+    width:20px ;
+    height: 20px;
+    /*margin-top: 13px;*/
+    background: url(../images/head.png) -114px -194px no-repeat;
+    margin-top:12px;
+}
+.top  img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 3px;
+    right: 500px;
+}
+.top a span{
+    margin-left: 24px;
+}
+/*------------------------------------导航栏----------------------------------*/
+.nav{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background:#eeeeee;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.nav img{
+    width: 120px;
+    height: 56px;
+    margin-left: 170px;
+    margin-top: 2px;
+    float: left;
+}
+.nav ul li{
+    float: left;
+    height: 10px;
+}
+.nav .bian{
+    color: #606060;
+    /*margin-left: 3px;*/
+    border-right: 1px solid #666;
+    padding: 0 10px;
+}
+.nav ul li a span.big{
+    font-size: 20px;
+    /*margin-left: 3px;*/
+}
+.nav ul li a span.small{
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+.nav .search{
+    position: absolute;
+    right: 340px;
+    bottom: 15px;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.nav .search input{
+    width: 166px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    border: none;
+    padding-left: 5px;
+}
+.nav .search .tubiao1{
+    width: 40px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+    background: url(../images/head.png)-100px -124px no-repeat ;
+}
+.nav .search .tubiao1:hover{
+    background: url(../images/head.png)-179px -124px no-repeat ;
+}
+.nav button{
+    position: absolute;
+    right:165px;
+    bottom: 15px;
+    width: 160px;
+    height: 30px;
+    background: #ccc;
+    color: #666;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav button:hover{
+    background: #000;
+    color: #fff;
+}
+.banner{
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+/*------------------------------------轮播图+右侧----------------------------------*/
+.banner .box{
+    width: 710px;
+    height: 355px;
+    float: left;
+    overflow: hidden;
+    margin-left:190px;
+    position: relative;
+    cursor: pointer;
+}
+.banner .box ul{
+    height: 355px;
+    width: 2000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner ul li{
+    width: 710px;
+    height: 355px;
+    float: left;
+}
+.slide{
+    width: 710px;
+    height: 355px;
+}
+.slide ul li img{
+    width: 710px;
+    height: 355px;
+}
+.box ol{
+    position: absolute;
+    bottom: 10px;
+    right: 200px;
+    line-height: 20px;
+    text-align: center;
+}
+.box ol li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+.box ol li.current{
+    background: #d85f11;
+}
+.banner .remen{
+    width: 220px;
+    height: 316px;
+    float: left;
+    background: #fff;
+    padding: 20px;
+    margin-left: 10px;
+}
+.banner .remen p:nth-child(1){
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+}
+.banner .remen img{
+    margin: 0 0 8px 5px;
+}
+.banner .remen p.last{
+    line-height: 22px;
+    margin-left: 2px;
+}
+/*------------------------------------生活，时尚，兴趣----------------------------------*/
+.shenghuo,.shishang,.xingqu{
+    width: 710px;
+    height: 470px;
+    padding: 10px;
+    background: #fff;
+    overflow: hidden;
+    margin-left: 190px;
+    position: relative;
+}
+.shenghuo .shang,.shishang .shang,.xingqu .shang{
+    height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.shenghuo .shang .first,.shishang .shang .first,.xingqu .shang .first{
+    margin-left: 10px;
+}
+.shenghuo .shang .last,.shishang .shang .last,.xingqu .shang .last{
+    float: right;
+    margin-right: 10px;
+}
+.shenghuo .xia,.shishang .xia,.xingqu .xia{
+    width: 710px;
+    height: 430px;
+    background: #f1f1f1;
+    perspective: 5000px;
+}
+.shenghuo .xia .tu,.shishang .xia .tu,.xingqu .xia .tu{
+    float: left;
+    width: 206px;
+    height: 185px;
+    background: #fff;
+    padding: 10px;
+    margin: 5px ;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+.shenghuo .xia .tu:hover,.shishang .xia .tu:hover,.xingqu .xia .tu:hover{
+    transform:translateZ(200px);
+    transition: all 0.3s ease-in-out;
+}
+.shenghuo .xia .tu:hover::after,.shishang .xia .tu:hover::after,.xingqu .xia .tu:hover::after{
+    bottom: 15px;
+}
+.shenghuo .xia .tu::after,.shishang .xia .tu::after,.xingqu .xia .tu::after{
+    content: '图片张数(50)';
+    text-align: center;
+    line-height: 180px;
+    color: white;
+    position: absolute;
+    width: 208px;
+    height: 180px;
+    background: rgba(0,0,0,.4);
+    left: 10px;
+    bottom: -200px;
+    transition: all 0.3s ease-in-out;
+}
+/*------------------------------------字体类----------------------------------*/
+.orange{
+    font-weight: bold;
+    color: #ffa500;
+    font-size: 20px;
+}
+.green{
+    font-size:17px ;
+    color: #75c50a;
+}
+.black{
+    font-size: 13px;
+    color: #606060;
+}
+.greenbold{
+    font-size: 16px;
+    color: #75c50a;
+    font-weight: bold;
+}
+/*------------------------------------热门标签----------------------------------*/
+.remenbiaoqian{
+    padding: 10px;
+    width: 218px;
+    height: 220px;
+    background: #fff;
+    margin-top:20px ;
+    position: absolute;
+    top: 490px;
+    left: 930px;
+}
+.remenbiaoqian p{
+    font-size: 16px;
+    color: #75c50a;
+    font-weight: bold;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.remenbiaoqian .xia{
+    margin-left: 4px;
+}
+.remenbiaoqian span{
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+}
+.shishang,.xingqu{
+    margin-top:16px;
+}
+/*------------------------------------悟语----------------------------------*/
+.wuyu{
+    width: 220px;
+    padding: 10px;
+    height: 320px;
+    position: absolute;
+    top: 750px;
+    left: 930px;
+    background: #fff;
+    margin-top:16px ;
+}
+.first{
+    float: left;
+}
+.last{
+    float: right;
+}
+.wuyu .shang{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom:10px;
+}
+.wuyu .xia video{
+    width: 215px;
+    height: 180px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px gray;
+    position: relative;
+}
+/*大按钮--圆的*/
+.video-js .vjs-big-play-button{
+    width:3em;
+    height: 3em;
+    font-size:3em;
+    line-height: 3em;
+    border-radius: 3em;
+    border-width: 0.15em;
+}
+/*里边小三角---在伪类中修改*/
+.video-js .vjs-big-play-button::before{
+    font-size:1.5em;
+}
+
+/*暂停,大按钮居中*/
+.vjs-paused.vjs-big-play-button,
+.vjs-paused.vjs-has-started .vjs-big-play-button{
+    display: block;
+}
+/*点击屏幕暂定*/
+.vedio-js .vjs-playing .vjs-tech{
+    pointer-events: auto;
+}
+.wuyu p{
+    height: 65px;
+    line-height:20px ;
+    padding: 10px 0 0 0;
+    border-top: 1px dashed #ccc;
+}
+/*------------------------------------主题活动----------------------------------*/
+.zhutihuodong{
+    position: absolute;
+    top: 1120px;
+    left: 930px;
+    background: #fff;
+    width: 220px;
+    height: 255px;
+    padding: 10px;
+}
+.zhutihuodong .shang{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.zhutihuodong img{
+    margin: 0 0 10px 5px;
+}
+.zhutihuodong p{
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.zhutihuodong .one{
+    border-bottom: 1px solid #ccc;
+}
+/*------------------------------------旅行日志----------------------------------*/
+.lvxingrizhi{
+    position: absolute;
+    top: 1410px;
+    left: 930px;
+    background: #fff;
+    width: 220px;
+    height: 280px;
+    padding: 10px;
+}
+.lvxingrizhi .shang{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.lvxingrizhi p{
+    font-size: 14px;
+}
+.lvxingrizhi p.p1{
+    display: inline-block;
+    line-height: 40px;
+}
+.lvxingrizhi a.a1{
+    border-top: 1px dotted #ccc;
+}
+.lvxingrizhi a{
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px dotted #ccc;
+}
+/*------------------------------------活跃会员----------------------------------*/
+.huoyuehuiyuan{
+    position: absolute;
+    top: 1730px;
+    left: 930px;
+    background: #fff;
+    width: 220px;
+    height: 400px;
+    padding: 10px;
+}
+.huoyuehuiyuan .shang{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.huoyuehuiyuan  ul li{
+    width: 100%;
+    height: 50px;
+    padding:10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+.huoyuehuiyuan  ul li img{
+    float: left;
+}
+.huoyuehuiyuan  ul li p{
+    float: left;
+    margin-left: 10px;
+}
+.huoyuehuiyuan  ul li p.p2{
+    font-size: 12px;
+    color: #ccc;
+}
+/*------------------------------------关注我们----------------------------------*/
+.guanzhuwomen{
+    position: absolute;
+    top: 2170px;
+    left: 930px;
+    background: #f9f9f9;
+    width: 220px;
+    height: 250px;
+    padding: 10px;
+
+}
+.guanzhuwomen .shang{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.guanzhuwomen .xia ul{
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+.guanzhuwomen .xia ul li{
+    float: left;
+    width: 108px;
+    height: 70px;
+    border-top: 1px solid #eee;
+    cursor: pointer;
+}
+.guanzhuwomen .xia ul li.l1,.l3,.l5{
+    border-right: 1px solid #eee;
+}
+.l1{
+    background: url(../images/sites.png)-335px 0 no-repeat ;
+}
+.l1:hover{
+    background: url(../images/sites.png)-110px 0 no-repeat ;
+}
+.l2{
+    background: url(../images/sites.png)-335px -140px no-repeat ;
+}
+.l2:hover{
+    background: url(../images/sites.png)-110px -140px no-repeat ;
+}
+.l3{
+    background: url(../images/sites.png)-220px -70px no-repeat ;
+}
+.l3:hover{
+    background: url(../images/sites.png)0 -70px no-repeat ;
+}
+.l4{
+    background: url(../images/sites.png)-335px -70px no-repeat ;
+}
+.l4:hover{
+    background: url(../images/sites.png)-110px -70px no-repeat ;
+}
+.l5{
+    background: url(../images/sites.png)-220px -140px no-repeat ;
+}
+.l5:hover{
+    background: url(../images/sites.png) 0 -140px no-repeat ;
+}
+.l6{
+    background: url(../images/sites.png)-220px -210px no-repeat ;
+}
+.l6:hover img{
+    /*background: url(../images/sites.png) 0 -210px no-repeat ;*/
+    height: 220px;
+    transition: height 0.3s ease-in-out;
+}
+.l6 img{
+    width: 220px;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*------------------------------------尾部----------------------------------*/
+.fengexian{
+    width: 100%;
+    height: 0;
+    border: 1px solid #ccc;
+    margin-top:20px;
+}
+footer p{
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.hezi{
+    width: 60px;
+    /*height: 150px;*/
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background:#bbb;
+    font-size:12px;
+    color:#fff ;
+    cursor: pointer;
+}
+.hezi .fanhui{
+    width: 60px;
+    height: 65px;
+    border-bottom: 2px solid #f1f1f1;
+    display: none;
+}
+.hezi .fanhui .tuf{
+    margin-left: 14px;
+    margin-top: 10px;
+    height: 26px;
+    width: 30px;
+    background: url(../images/sjbz_survey.png) -62px 0 no-repeat;
+}
+.hezi .fanhui p,.hezi .yijian p{
+    margin-top: 10px;
+    text-align: center;
+}
+.hezi .yijian{
+    width: 60px;
+    height: 65px;
+}
+.hezi .yijian .tuy{
+    margin-left: 14px;
+    margin-top: 10px;
+    height: 26px;
+    width: 30px;
+    background: url(../images/sjbz_survey.png) 0 0 no-repeat;
+}
+.fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:999;
+}
+/*---------------------------------------------百度接口-------------------------------------*/
+#ul1 {
+    border:1px solid #f90;
+    width: 200px;
+    height:auto;
+    display: none;
+    position: absolute;
+    right: 340px;
+    top:45px;
+    z-index: 998;
+    background: #fff;
+}
+#ul1 li{
+    height: 40px;
+    overflow: hidden;
+}
+.nav #ul1 li a {
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    padding: 5px;
+    display: block;
+    color: gray;
+}
+#ul1 li a:hover{
+    background: #f90;
+    color: white;
+}
